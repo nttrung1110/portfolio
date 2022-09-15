@@ -1,0 +1,307 @@
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #34495e;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+em.subheading-welcome {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+img.subheading-icon {
+  width: 1.9rem;
+  height: 1.65rem;
+  margin-bottom: 0.2rem;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #fa983a;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #fa983a;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+
+  #sideNav .navbar-brand .img-profile {
+    max-width: 11rem;
+    max-height: 11rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.4);
+  }
+
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+    /* color: rgba(255,255,255,.7); */
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #38ada9 !important;
+}
+
+.text-primary {
+  color: #079992 !important;
+}
+
+.text-primary:hover {
+  color: #fa983a !important;
+}
+
+a {
+  color: #079992;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #fa983a;
+}
+
+.text-bold-500 {
+  font-weight: 500 !important;
+}
+
+.img-fluid {
+  transition: all ease .2s;
+}
+
+.img-fluid:hover {
+  opacity: .7;
+}
+
+.page-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  transition: all .4s ease;
+  transform: translateY(100px);
+  z-index: 4;
+  cursor: pointer;
+}
+
+.page-top-active {
+  transform: translateY(0);
+}
+
+#scrollToTop {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #38ada9;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .13);
+}
+
+#scrollToTop:hover {
+  opacity: .7;
+}
+
+#scrollToTop::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  width: 14px;
+  height: 14px;
+  margin-top: -3px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: rotate(-45deg);
+}
+
+.toggle input {
+  height: 0;
+  width: 0;
+}
+
+.toggle .switch {
+  display: block;
+  width: var(--toggle-width);
+  height: var(--toggle-height);
+  padding: 5px;
+  cursor: pointer;
+  background-color: var(--off);
+  border-radius: 40px;
+  transition: all ease 0.3s;
+  position: relative;
+}
+
+.toggle .switch:before {
+  content: '';
+  display: block;
+  height: var(--toggle-height);
+  width: var(--toggle-height);
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all ease 0.3s;
+}
+
+.toggle input:checked+.switch {
+  background: var(--on);
+}
+
+.toggle input:checked+.switch:before {
+  transform: translateX(calc(var(--toggle-width) - var(--toggle-height)));
+}
+
+.navbar-nav .nav-item:last-child:hover a{
+  color: #fa983a!important;
+}
+
+@media (max-width: 992px) {
+  h1{
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+
+  .projects li {
+    flex-direction: column;
+  }
+
+  .projects li > div{
+    flex-basis: unset;
+    border-right: unset!important;
+  }
+}
